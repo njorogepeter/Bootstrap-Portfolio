@@ -1,0 +1,43 @@
+/* footer */
+
+  html {
+    position: relative;
+    min-height: 100%;
+  }
+  body {
+    margin-bottom: 60px; /* Margin bottom by footer height */
+    height: 100%;
+    background-image: url(../images/witewall_3.png);
+    color:#777;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.6em; 
+    margin: 0 auto;
+  }
+  .footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    border-top: 8px solid #4aaaa5;
+    height: 80px; /* Set the fixed height of the footer here */
+    line-height: 60px; /* Vertically center the text there */
+    background-color: #666;
+  }
+  .text-dark{
+    color: #777 !important;
+  }
+  /* .navbar{
+    background-color: #fff !important;
+  } */
+  /* images  */
+  .item-desc {
+    position: absolute;
+    bottom: 0;
+    display: inline-block;
+    background-color: #4aaaa5;
+    color: white;
+    padding: 20px;
+    /* width: 270px; */
+    text-align: center;
+  }
+  
